@@ -1,0 +1,42 @@
+## Introduction
+Design Artifacts is a genealogy of the growing range of artifacts at the disposal of digital interface designers today - from the simplicity of hand-drawn sketches to AI-assisted prototypes - and how each of them can be leveraged to support the software development process. During this course, we'll expore how different artifacts facilitate ideation and the communication of ideas and concepts as approximations to the final product.
+
+### Course structure
+
+#### Chapter 1: Tracing the genealogy of design artifacts in digital interface design
+An historical perspective to the evolution of design artifacts in digital interface design. We apply a taxonomy to artifacts based on their level of fidelity and control.  
+
+#### Chapter 2: Hand-drawn sketches
+The most bare-bones artifact in design - the drawing, the gesture and the creative process. Whether on paper or digital form, hand-drawn sketches offer a low barrier to generating a large number of ideas and concepts.
+
+#### Chapter 3: Maps, tables and databases
+Perhaps the most malleable means to structure concepts and data structures, supporting abstraction and systems thinking. Explore AI-assisted tools to move from sketching maps, to generating charts in vector and programmatic form.
+
+#### Chapter 4: Decision documents
+Borrowed from software engineering's Architecture Decision Records (ADR), these capture why you and the team made specific design choices and trade-offs, articulating your strategic thinking. They create organisational memory and offer valuable context for future design decisions and iterations.
+
+#### Chapter 5: High fidelity mockups
+The last decade saw the proliferation of tools for creating high-fidelity mockups within a multi-player environment, usually in the form of a spatial interface of the infinite canvas. Offering familiar tools to create high fidelity artifacts, they resonated with designers in a shofting industry, where interface designers became a job in high demand. Whilst Figma became the *de facto* standard for this type of artifact, we will also become familiar with some of its competitors, incluidng open source alternatives. 
+
+#### Chapter 6: AI-assisted prototyping
+While Figma Design offers the highest control for designers to develop high-fidelity mocks, it remains a vector-based design tool.  the Explore how the evolving tools available for AI-assisted prototyping can be used to validate concepts and to refine experience details hand-in-hand with the development teams.
+
+AI-assisted tools and practices:
+
+1. A comparative analysis of current tools (Figma Make, Lovable, Irvin, v0, Replit, Windsurf, Cursor, Claude Code)
+2. MCP and context strategies
+3. Prompt libraries and repositories (???)
+4. Version control: Git basics (???)
+
+By stage of the design process:
+
+1. As a ideation tool 
+2. As a validation tool
+3. As a craft tool
+
+Applications:
+
+1. Prototyping complex input (search, drawing)
+2. Handling complex mock-data (tables, sorting and filtering)
+3. Prototyping states, data fetching and transitions
+4. Creating expressive animations

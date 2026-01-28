@@ -1,9 +1,9 @@
+title: "Design Artifacts Course"
+author: "Ana Fernandes Rodrigues"
+
 project:
   type: website
 
-website:
-  title: "Design Artifacts Course"
-  description: "Welcome to the Design Artifacts Course"
 format:
   html:
     theme:
