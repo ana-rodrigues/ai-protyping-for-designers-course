@@ -1,5 +1,5 @@
 ---
-title: "Design Artifacts Course"
+title: "Prototipagem assistida por AI para designers"
 author: "Ana Fernandes Rodrigues"
 
 format:
@@ -9,5 +9,42 @@ format:
     number-depth: 2
 ---
 
-{{< include "chapters/00-intro.qmd" >}}
-{{< include "chapters/01-sketches.qmd" >}}
+# Introdução
+As ferramentas de desenvolvimento assistido por inteligência artificial vêm a desafiar os limites do que é possível alcanaçar para não-programadores com mero recurso a linguagem natural.
+
+Diferentes tipos de ferrmentas oferecem graus variáveis de controlo sobre o resultado gerado - desde ferramentas _low to no-code_ à geração assistida de código no contexto do Ambiente de Desenvolvimento Integrado - no inglês _Integrated Development Environment (IDE)_ - ou simplesmente através do terminal. Estas propõem níveis distintos de abstração entre a simplicidade de uso e a proximidade com o aspecto mais fundamental do software - o código.
+
+Enquanto que algumas destas ferramentas não coloquem qualquer barreira de entrada, outras podem exigir um conhecimento prévio de programação. Para designers com contacto limitado com o contexto de desenvolvimento, esta distância pode representar um desafio significativo.
+
+## Proposta pedagógica
+Este curso de curta-duração propõe a designers de produto digital desenvolver competências em prototipagem em código com recurso a ferramentas de inteligência artificial, com um foco na maior proximidade com o aspecto material do seu trabalho - o código em si. O curso é desenhado de forma a explorar técnicas e exemplos práticos de prototipagem com IA, ao mesmo tempo que introduz conceitos base de desenvolvimento de software que permitam a eficaz integração, colaboração e resolução de problemas com este tipo de artefactos.
+
+## Público-alvo
+Designers de produto digital proficientes em concepção de interfaces gráficas, que procurem tornar-se mais confortáveis com prototipagem e desenvolvimento de software assistido por IA.
+
+# Metodologia de ensino
+O curso de curta-duração proposto guia os participantes através de um ciclo de aprendizagem em video, que introduz conceitos-chave enquanto demonstra o desenvolvimento de um projecto real (a ser determinado). Os alunos são encorajados a escolher um pequeno projecto - o mesmo mostrado no curso, ou outro projecto de complexidade semelhante - para desenvolver em paralelo com as lições.
+
+## Princípios metodológicos
+
+1. **Abordagem prática** - os estudantes constroem conhecimento ao aplicar as componentes teóricas do desenvolvimento de um projecto tangível. E.g., cada sessão expositiva é seguida de uma sugestão de aplicação dos conceitos aprendidos, motivando a progressão no projecto escolhido. 
+2. **Aprendizagem progressiva** - a complexidade dos conceitos e das tarefas de projecto aumenta progressivamente ao longo do curso. E.g., num primeiro momento os alunos são desafiados a criar uma lista simples com dados estáticos, podendo depois gerar dados _mock_ e, num terceiro momento, popular a mesma lista com dados de uma API de acesso público.
+3. **Multimodalidade e carga cognitiva** - cada módulo combina elementos textuais com demonstração prática através de partilha de ecrã, ambos narrados de forma a manter o foco dos alunos. E.g., um módulo sobre criar data _mock_ com IA pode iniciar com uma definição deste tipo de data, introdução a formatos estruturados, e finalizar com uma demonstração prática de como gerar esses dados com IA e popular o componente de lista.
+4. **Desenvolvimento de confiança** - o curso visa primeiramente ultrapassar as barreiras de entrada a conceitos e ferrmentas de desenvolvimento que podem ser inimidantes para designers, Por isso mesmo, os conteúdos são pensados para aludir a conceitos familiares a designers de produto.
+5. **Transferência de conhecimento** - os conceitos e técnicas aprendidos durante o curso são aplicáveis a diferentes projectos e oferecem uma base sólida para continuar a desenvolver protótipos progressivamente mais complexos. E.g., aprender a comunicar com uma API existente ajuda os participantes a compreender estrutura de dados, facilitando o desenho de uma API própria num futuro projecto.
+
+# Estrutura do curso
+
+| Módulo | Título | Duração | Descrição | Objectivos |
+|--------|-------|----------|----------------|---------------------|
+| 0 | Título do módulo | 0 min | Descrição curta do tema | Objectivos |
+
+
+# Riscos e potenciais soluções
+
+| Riscos | Estratégia de mitigação |
+|-----------|---------------------|
+| **Dificuldades no processo de configuração** | Incluir um guia de preparação passo-a-passo em formato video e textual |
+| **Custos com ferramentas** | Tirar partido de periodos de teste e software e APIs de acesso aberto |
+| **Taxa de abandono** | Garantir que as técnicas demonstradas permitem aos alunos progredir com confiança, especialmente nos primeiros módulos |
+| **Frustração com erros técnicos** | Normalizar erros e iterações como parte do processo, especialmente quando se trata de ferramentas IA, e manter cenários de erro e resolução nas demonstrações gravadas |
