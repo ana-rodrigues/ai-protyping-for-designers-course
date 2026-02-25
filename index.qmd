@@ -12,35 +12,134 @@ format:
 # Introdução
 As ferramentas de desenvolvimento assistido por inteligência artificial vêm a desafiar os limites do que é possível alcanaçar para não-programadores com mero recurso a linguagem natural.
 
-Diferentes tipos de ferrmentas oferecem graus variáveis de controlo sobre o resultado gerado - desde ferramentas _low to no-code_ à geração assistida de código no contexto do Ambiente de Desenvolvimento Integrado - no inglês _Integrated Development Environment (IDE)_ - ou simplesmente através do terminal. Estas propõem níveis distintos de abstração entre a simplicidade de uso e a proximidade com o aspecto mais fundamental do software - o código.
+Diferentes tipos de ferrmentas oferecem graus variáveis de controlo sobre o resultado gerado - desde ferramentas _low to no-code_ à geração assistida de código no contexto do Ambiente de Desenvolvimento Integrado - no inglês _Integrated Development Environment (IDE)_ - ou simplesmente através do terminal. Estas propõem níveis distintos de abstração entre a simplicidade de uso e a proximidade com o aspecto mais material do software - o código.
 
-Enquanto que algumas destas ferramentas não coloquem qualquer barreira de entrada, outras podem exigir um conhecimento prévio de programação. Para designers com contacto limitado com o contexto de desenvolvimento, esta distância pode representar um desafio significativo.
+Enquanto que algumas destas ferramentas colocam poucas barreiras de entrada, outras podem exigir um conhecimento prévio de programação. Para designers com contacto limitado com o contexto de desenvolvimento, esta distância pode representar um desafio significativo.
 
 ## Proposta pedagógica
-Este curso de curta-duração propõe a designers de produto digital desenvolver competências em prototipagem em código com recurso a ferramentas de inteligência artificial, com um foco na maior proximidade com o aspecto material do seu trabalho - o código em si. O curso é desenhado de forma a explorar técnicas e exemplos práticos de prototipagem com IA, ao mesmo tempo que introduz conceitos base de desenvolvimento de software que permitam a eficaz integração, colaboração e resolução de problemas com este tipo de artefactos.
+Este curso de curta-duração propõe a designers de produto digital desenvolver competências em prototipagem em código com recurso a ferramentas de inteligência artificial, com um foco na maior proximidade com o aspecto material do seu trabalho - o código em si. 
 
 ## Público-alvo
-Designers de produto digital proficientes em concepção de interfaces gráficas, que procurem tornar-se mais confortáveis com prototipagem e desenvolvimento de software assistido por IA.
+Designers de produto digital proficientes em concepção de interfaces gráficas, que procurem tornar-se mais confortáveis com prototipagem assistida por IA utilizando o ambiente de desenvolvimento integrado Cursor.
 
 # Metodologia de ensino
-O curso de curta-duração proposto guia os participantes através de um ciclo de aprendizagem em video, que introduz conceitos-chave enquanto demonstra o desenvolvimento de um projecto real (a ser determinado). Os alunos são encorajados a escolher um pequeno projecto - o mesmo mostrado no curso, ou outro projecto de complexidade semelhante - para desenvolver em paralelo com as lições.
+O curso guia os participantes através de um ciclo de aprendizagem em video, que introduz conceitos-chave enquanto demonstra o desenvolvimento de um projecto real, cruzando sempre as componentes teóricas com a componente prática. Os alunos são encorajados a escolher um pequeno projecto - o mesmo mostrado no curso, ou outro projecto de complexidade semelhante - para desenvolver em paralelo às lições. 
+
+## Porquê a escolha do formato vídeo _on demand_
+Este é um curso particularmente denso e virado para o desenvolvimento de confiança com novas ferramentas e conceitos. Desta forma, beneficia de ser acompanhado ao ritmo da preferência dos alunos e dando-lhes a possibilidade de rever os conteúdos várias vezes, caso considerem necessário.
+
+O formato _webinar_ é adequado para porções específicas deste curso. Os módulos que oferecem bons candidatos a estes formatos são acompanhados da tag `Compatível com webinar individual`.
 
 ## Princípios metodológicos
 
-1. **Abordagem prática** - os estudantes constroem conhecimento ao aplicar as componentes teóricas do desenvolvimento de um projecto tangível. E.g., cada sessão expositiva é seguida de uma sugestão de aplicação dos conceitos aprendidos, motivando a progressão no projecto escolhido. 
-2. **Aprendizagem progressiva** - a complexidade dos conceitos e das tarefas de projecto aumenta progressivamente ao longo do curso. E.g., num primeiro momento os alunos são desafiados a criar uma lista simples com dados estáticos, podendo depois gerar dados _mock_ e, num terceiro momento, popular a mesma lista com dados de uma API de acesso público.
-3. **Multimodalidade e carga cognitiva** - cada módulo combina elementos textuais com demonstração prática através de partilha de ecrã, ambos narrados de forma a manter o foco dos alunos. E.g., um módulo sobre criar data _mock_ com IA pode iniciar com uma definição deste tipo de data, introdução a formatos estruturados, e finalizar com uma demonstração prática de como gerar esses dados com IA e popular o componente de lista.
-4. **Desenvolvimento de confiança** - o curso visa primeiramente ultrapassar as barreiras de entrada a conceitos e ferrmentas de desenvolvimento que podem ser inimidantes para designers, Por isso mesmo, os conteúdos são pensados para aludir a conceitos familiares a designers de produto.
-5. **Transferência de conhecimento** - os conceitos e técnicas aprendidos durante o curso são aplicáveis a diferentes projectos e oferecem uma base sólida para continuar a desenvolver protótipos progressivamente mais complexos. E.g., aprender a comunicar com uma API existente ajuda os participantes a compreender estrutura de dados, facilitando o desenho de uma API própria num futuro projecto.
+1. **Abordagem prática** - os estudantes constroem conhecimento ao aplicar as componentes teóricas do desenvolvimento de um projecto tangível. As sessões expositivas são acompanhadas de exemplos de aplicação dos conceitos aprendidos, motivando a progressão no projecto escolhido. 
+2. **Aprendizagem progressiva e cumulativa** - a complexidade dos conceitos e das tarefas de projecto aumenta progressivamente ao longo do curso, permitindo aos alunos construir confiança e conhecimento de forma gradual e cumulativa.
+3. **Multimodalidade e carga cognitiva** - cada módulo combina elementos exposição verbal, com elementos visuais e demonstrações práticas através da partilha de ecrã.
+4. **Desenvolvimento de confiança** - o curso visa primeiramente ultrapassar as barreiras de entrada à prototipagem em código para designers menos familiares com este contexto. Por isso, parte-se de ferramentas e modelos mentais que lhe serão familiares e gradualmente se avança para novos conceitos e ferramentas.
+5. **Transferência de conhecimento** - os conceitos e técnicas aprendidos durante o curso são aplicáveis a diferentes projectos e oferecem uma base sólida para continuar a desenvolver protótipos progressivamente mais complexos.
+
+## Desenho do curso
+O curso tem assim dois arcos no seu desenho: 
+
+1. **Arco de exploração** - momento abrangente de contacto com diversas ferramentas e aplicações;
+2. **Arco de aprofundamento** - momento de foco na execução de um escopo com uma ferramenta específica (Cursor).
+
+## Porquê a escolha do Cursor para o segundo arco?
+Na sua fase de exploração, o curso apresenta aos alunos uma gama de ferramentas e aplicações possíveis de prototipagem assistida por IA. Porquê fechar o ciclo com o Cursor especificamente? No módulo 2 (cf., [Estrutura do Curso](#estrutura-do-curso)), apresentam-se diferentes ferramentas em função dos seus modelos mentais, começando pela tradução de design para código, proposta-chave do Figma Make. Já o Cursor tem a particularidade de conjugar input multi-modal (texto, imagens, ligações via MCP, etc.) com manipulação directa do código através do editor visual. 
+
+Fecha-se assim o ciclo com uma ferramenta que tem elementos surpreendentemente próximos do Figma Make, mas onde a manipulação directa é feita sobre o código em si, ao invés de elementos vectoriais. Enfatiza-se assim a importância futura de desenvolver maior à vontade com a materialidade do nosso trabalho enquanto designers - o código.
+
 
 # Estrutura do curso
 
-| Módulo | Título | Duração | Descrição | Objectivos |
-|--------|-------|----------|----------------|---------------------|
-| 0 | Introdução ao curso | 15 min | Descrição breve da estrutura, metodologia e objectivos do curso | Gerir expectativas da audiência e guiar na escolha de um projecto, caso os alunos pretendam fazer a componente prática em paralelo |
-| 1 | Ferramentas de IA para prototipagem em código | 20 min | Caracterização de diferentes ferramentas para prototipagem assistida por AI relativamente a barreiras de entrada, limitações e controlo sobre o output | Comunicar a gama de opções disponíveis e como podem testar cada uma delas; contextualizar as vantagens de ganhar confiança com fundamentos e conceitos de desenvolvimento, independentemente da ferramenta usada.
-| 2 | Práticas de prompting | 30 min | Introdução a práticas de prompting eficazes e demonstração com componente simples usando uma ferramenta low-code
+| Módulo | Título | Duração | Descrição
+|--------|-------|----------|----------------|
+| 0 | [Introdução ao curso](#0-introdução-ao-curso) | 15 min | Descrição breve da estrutura, metodologia e objectivos do curso.
+| 1 | [Como escolher um projecto?](#1-como-escolher-um-projecto) | 10 min | Boas práticas ao definir um projecto para aprendizagem. Introdução ao projecto-demonstração que vai ser usado de exemplo ao longo do curso.
+| 2 | [Ferramentas de prototipagem assistida por IA](#2-ferramentas-de-prototipagem-assistida-por-ia) | 45 min | Caracterização de diferentes ferramentas actuais para prototipagem assistida por AI (Figma, v0, Lovable, Cursor). Introdução a LLMs e modelos mentais. `Compatível com webinar individual`
+| 3 | [Técnicas de _prompting_ e introdução ao MCP](#3-técnicas-de-prompting-e-introdução-ao-mcp) | 30 min | Diferentes abordagens de prompting e introdução ao Model Context Protocol (MCP) para maior eficácia com ferramentas IA.
+| 4 | [Quando utilizar prototipagem assistida por IA?](#4-quando-utilizar-prototipagem-assistida-por-ia) | 30 min | Aplicações práticas em diferentes momentos do ciclo de desenvolvimento: (1) artefacto exploratório, (2) artefacto de validação, (3) micro-interacções. `Compatível com webinar individual`
+| 5 | [Velocidade vs. progresso](#5-velocidade-vs-progresso) | 20 min | A importância de definir o problema, objectivos e planear o protótipo. Criação de cenário hipotético para demonstração.
+| 6 | [Introdução à prototipagem no ambiente de desenvolvimento com Cursor](#6-introdução-à-prototipagem-no-ambiente-de-desenvolvimento-com-cursor) | 30 min | Instalação, configuração e utilização do IDE Cursor: agente, regras, planeamento e editor visual. `Compatível com webinar individual`
+| 7 | [Introdução a controlo de versão com Git](#7-introdução-a-controlo-de-versão-com-git) | 15 min | Conceito de versionamento e utilização do Git. Criação de conta GitHub, iniciar repositório e operações fundamentais.
+| 8 | [Estrutura e dados](#8-estrutura-e-dados) | 30 min | Criação da arquitectura da aplicação com o agente do Cursor. Geração de data de teste para alimentar a aplicação.
+| 9 | [Ligação com o Figma MCP](#9-ligação-com-o-figma-mcp) | 30 min | Integração do Figma como fonte de contexto. Guia de instalação com Cursor e demonstração prática de estilização.
+| 10 | [Distribuição para testes com utilizador e partilha em equipa](#10-distribuição-para-testes-com-utilizador-e-partilha-em-equipa) | 15 min | Como fazer deployment do protótipo utilizando Vercel. Outras opções: Netlify e Github Pages.
+| 11 | [Considerações de segurança](#11-considerações-de-segurança) | 15 min | Práticas recomendadas de segurança: gestão de chaves de API, proteção de dados sensíveis e variáveis de ambiente.
 
+## Módulos
+
+### 0. Introdução ao curso
+_Descrição breve da estrutura, metodologia e objectivos do curso._
+Duração: 15 min
+
+Num primeiro momento, gerem-se as expectativas dos alunos relativamente à metodologia utilizada, à estrutura das aulas e à articulação da componente teórica com a componente prática opcional. 
+
+### 1. Como escolher um projecto?
+_Boas práticas ao definir um projecto para aprendizagem. Introdução ao projecto-demonstração que vai ser usado de exemplo ao longo do curso._
+Duração: 10 min
+
+Uma segunda introdução foca-se na escolha de um projecto para aprendizagem, de forma a permitir que os alunos possam aplicar os conceitos aprendidos ao longo do curso. Para garantir o sucesso dos alunos e reduzir potencial frustração ao longo da curva de aprendizagem, é fundamental que o projecto escolhido seja contido e adequado ao nível de domínio dos alunos. Para os alunos que não queiram definir o próprio projecto, mas que queiram ainda assim executar a componente prática, poderão replicar o projecto de demonstração usado ao longo do curso: uma aplicação web de previsão meteorológica.
+
+### 2. Ferramentas de prototipagem assistida por IA
+_Caracterização de diferentes ferramentas actuais para prototipagem assistida por AI (Figma, v0, Lovable, Cursor)._
+Duração: 45 min `Compatível com webinar individual`
+
+Este módulo foca-se no aspecto tecnológico da prototipagem por IA. Começa por introduzir os alunos ao conceito de LLM (large-language model) e elabora sobre o estado da arte em modelos com bom desempenho em geração de código de software. Posteriormente, apresentam-se algumas ferramentas seleccionadas em função dos seus modelos mentais (tradução de design para código ou de texto para código), das possibilidades e limitações. Os alunos são convidados a criar contas de teste e experimentar livremente as diferentes ferramentas. 
+
+### 3. Técnicas de _prompting_ e introdução ao MCP
+_Diferentes abordagens de prompting e contexto para uma maior eficácia com ferramentas IA_
+Duração: 30 min
+
+Ao explorar as ferramentas introduzidas, vemos que nem sempre obtemos os melhores resultados. Como podemos ser mais efectivos? Neste módulo, exploram-se diferentes técnicas de _prompting_ e introduz-se o conceito de MCP (Model Context Protocol) para melhorar a experiência com estas ferramentas.
+
+### 4. Quando utilizar prototipagem assistida por IA?
+_Apresentação de aplicações práticas de prototipagem assistida por IA em diferentes momentos do ciclo de desenvolvimento de software_
+Duração: 30 min `Compatível com webinar individual`
+
+Que papel pode a prototipagem assistida por IA desempenhar no processo de desenvolvimento de software? Quando e como utilizar estas técnicas e artefactos? Estaremos a assistir à transformação do modelo do triângulo invertido? Neste módulo respondemos a estas questões com exemplos ligados ao projecto de demonstração: (1) prototipagem como artefacto exploratório com Figma, (2) prototipagem como artefacto de validação com Lovable, (3) prototipagem para micro-interacções com Cursor.
+
+### 5. Velocidade vs. progresso
+_A importância de definir o problema, definir objectivos e de planear o protótipo._
+Duração: 20 min
+
+Com uma gama tão variada de ferramentas disponíveis e um espaço amplo de possibilidades de aplicação, fica claro que é fundamental adaptar o uso destes artefactos ao contexto e fase do projecto. É assim fundamental definir o problema que estamos a procurar resolver, o que pretendemos descobrir e como o protótipo, enquanto artefacto, nos pode ajudar a alcançar esses objectivos. Para efeitos demonstrativos, cria-se um cenário hipotético um designer que procura prototipar uma aplicação web de previsão meteorológica, para utilizar como artefacto de validação.
+
+### 6. Introdução à prototipagem no ambiente de desenvolvimento com Cursor
+_Como configurar e utilizar o Cursor para o nosso processo de prototipagem._
+Duração: 30 min `Compatível com webinar individual`
+
+Retomando ao final do módulo 2, mas agora com um plano concreto, os alunos são guiados na instalação, configuração e utilização do IDE Cursor em maior detalhe, com foco nas funcionalidades de (a) agente, (c) regras, (c) planeamento e (d) editor visual. As funcionalidades são apresentadas com contexto prático, enquanto se configura o projecto para o nosso protótipo.
+
+### 7. Introdução a controlo de versão com Git `Compatível com webinar individual`
+_Como manter controlo do nosso progresso?_
+Duração: 15 min
+
+Introdução ao conceito de versionamento e como utilizar Git para manter controlo sobre o progresso do projecto. Demonstra-se como criar uma conta de GitHub, iniciar um repositório e fazer operações fundamentais tanto na interface gráfica como no terminal. 
+
+### 8. Estrutura e dados
+_Como criar a arquitectura da nossa aplicação._
+Duração: 30 min
+
+Articulando os conhecimentos até agora adquiridos, cria-se o esqueleto funcional da aplicação com o agente do Cursor, partindo de um mapa de jornada e de alguns designs em Figma previamente preparados. De seguida, demonstra-se como utilizar o mesmo agente para criar data de teste para alimentar a aplicação enquanto desenvolvemos a interface.
+
+### 9. Ligação com o Figma MCP
+_Como integrar contexto adicional no nosso processo?_
+Duração: 30 min
+
+Retomando ao que foi aprendido no módulo 3, demonstra-se como integrar o Figma como fonte adicional de contexto para auxiliar o processo de prototipagem. Guia de instalação com o Cursor e comandos essenciais. Terminamos com uma demonstração prática de como usar o contexto para estilar a aplicação.
+
+### 10. Distribuição para testes com utilizador e partilha em equipa
+_Como partilhar o nosso protótipo com outros?_
+Duração: 15 min
+
+Agora que temos um protótipo funcional, estamos prontos para o partilhar com outros - sejam eles utilizadores de teste, com contexto de testes de usabilidade, sejam colegas ou _stakeholders_ no projecto. Demonstra-se como fazer _deployment_ do protótipo utilizando Vercel. Apresentam-se ainda outras opções como Netlify ou Github Pages, incluindo as suas limitações e aspectos de segurança.
+
+### 11. Considerações de segurança
+_Como proteger os nossos dados quando distribuimos um protótipo?_
+Duração: 15 min
+
+A título principalmente informativo, mas certamente útil, apresentam-se práticas recomendadas de segurança ao distribuir um protótipo, incluindo a gestão de chaves de API, a proteção de dados sensíveis e utilização de varáveis de ambiente com Vercel.
 
 
 # Riscos e potenciais soluções
@@ -53,10 +152,8 @@ O curso de curta-duração proposto guia os participantes através de um ciclo d
 | **Frustração com erros técnicos** | Normalizar erros e iterações como parte do processo, especialmente quando se trata de ferramentas IA, e manter cenários de erro e resolução nas demonstrações gravadas |
 
 
-# Referências
+<!-- # Referências
 
 [Beyond Vibe Coding](https://www.ericli.io/writing/beyond-vibe-coding)
-
 [Prompting Guide Techniques](https://www.promptingguide.ai/techniques)
-
-[Weaviate Academy Learning Paths](https://academy.weaviate.io/paths)
+[Weaviate Academy Learning Paths](https://academy.weaviate.io/paths) -->
