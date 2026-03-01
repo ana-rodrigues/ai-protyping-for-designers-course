@@ -1,5 +1,8 @@
-title: "Design Artifacts Course"
-author: "Ana Fernandes Rodrigues"
+title: "Prototipagem em código para designers"
+date-modified: last-modified
+author:
+  - name: Ana Fernandes Rodrigues
+    url: https://www.anarodrigues.design
 
 project:
   type: website
@@ -11,6 +14,12 @@ format:
       - zephyr
       - brand
     css: styles.css
+    favicon: favicon.ico
+    lang: pt
+    date-format: "MMMM [de] YYYY"
+    language:
+      title-block-author-single: "Curso desenhado por"
+      title-block-modified: "Última actualização"
 
 
 

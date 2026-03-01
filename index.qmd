@@ -1,6 +1,5 @@
 ---
-title: "Prototipagem assistida por AI para designers"
-author: "Ana Fernandes Rodrigues"
+title: "Prototipagem em código para designers"
 
 format:
   html:
