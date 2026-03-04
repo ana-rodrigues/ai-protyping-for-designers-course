@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt" xml:lang="pt"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.27">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Ana Fernandes Rodrigues">
+
+<title>Prototipagem com IA para designers</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-a25750924116104412f7a457768fb952.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "Nenhum resultado",
+    "search-matching-documents-text": "documentos correspondentes",
+    "search-copy-link-title": "Copiar link para a busca",
+    "search-hide-matches-text": "Esconder correspondências adicionais",
+    "search-more-match-text": "mais correspondência neste documento",
+    "search-more-matches-text": "mais correspondências neste documento",
+    "search-clear-button-title": "Limpar",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancelar",
+    "search-submit-button-title": "Enviar",
+    "search-label": "Procurar"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="floating quarto-light">
+
+<div id="quarto-search-results"></div>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Nesta página</h2>
+   
+  <ul>
+  <li><a href="#introdução" id="toc-introdução" class="nav-link active" data-scroll-target="#introdução">Introdução</a>
+  <ul class="collapse">
+  <li><a href="#proposta-pedagógica" id="toc-proposta-pedagógica" class="nav-link" data-scroll-target="#proposta-pedagógica">Proposta pedagógica</a></li>
+  <li><a href="#público-alvo" id="toc-público-alvo" class="nav-link" data-scroll-target="#público-alvo">Público-alvo</a></li>
+  </ul></li>
+  <li><a href="#metodologia-de-ensino" id="toc-metodologia-de-ensino" class="nav-link" data-scroll-target="#metodologia-de-ensino">Metodologia de ensino</a>
+  <ul class="collapse">
+  <li><a href="#princípios-metodológicos" id="toc-princípios-metodológicos" class="nav-link" data-scroll-target="#princípios-metodológicos">Princípios metodológicos</a></li>
+  </ul></li>
+  <li><a href="#estrutura-do-curso" id="toc-estrutura-do-curso" class="nav-link" data-scroll-target="#estrutura-do-curso">Estrutura do curso</a>
+  <ul class="collapse">
+  <li><a href="#introdução-ao-curso" id="toc-introdução-ao-curso" class="nav-link" data-scroll-target="#introdução-ao-curso">1. Introdução ao curso</a></li>
+  <li><a href="#quando-e-como-utilizar-prototipagem-assistida-por-ia" id="toc-quando-e-como-utilizar-prototipagem-assistida-por-ia" class="nav-link" data-scroll-target="#quando-e-como-utilizar-prototipagem-assistida-por-ia">2. Quando e como utilizar prototipagem assistida por IA</a></li>
+  <li><a href="#prompting-e-contexto" id="toc-prompting-e-contexto" class="nav-link" data-scroll-target="#prompting-e-contexto">3. Prompting e contexto</a></li>
+  <li><a href="#dados-de-teste-e-integração-com-o-supabase" id="toc-dados-de-teste-e-integração-com-o-supabase" class="nav-link" data-scroll-target="#dados-de-teste-e-integração-com-o-supabase">4. Dados de teste e integração com o Supabase</a></li>
+  <li><a href="#introdução-a-versionamento-com-github" id="toc-introdução-a-versionamento-com-github" class="nav-link" data-scroll-target="#introdução-a-versionamento-com-github">5. Introdução a versionamento com GitHub</a></li>
+  <li><a href="#acompanhamento-de-projecto" id="toc-acompanhamento-de-projecto" class="nav-link" data-scroll-target="#acompanhamento-de-projecto">6. Acompanhamento de projecto</a></li>
+  </ul></li>
+  <li><a href="#riscos-e-potenciais-soluções" id="toc-riscos-e-potenciais-soluções" class="nav-link" data-scroll-target="#riscos-e-potenciais-soluções">Riscos e potenciais soluções</a></li>
+  </ul>
+</nav>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Prototipagem com IA para designers</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Curso desenhado por</div>
+    <div class="quarto-title-meta-contents">
+             <p><a href="https://www.anarodrigues.design">Ana Fernandes Rodrigues</a> </p>
+          </div>
+  </div>
+    
+  
+    <div>
+    <div class="quarto-title-meta-heading">Última actualização</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date-modified">março de 2026</p>
+    </div>
+  </div>
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="introdução" class="level1">
+<h1>Introdução</h1>
+<p>O rápido desenvolvimento em ferramentas de design e prototipagem assistidos por Inteligência Artificial (IA) vêm a desafiar os limites do que Designers podem produzir hoje em dia no seu trabalho. Desde explorações em série até protótipos complexos com dados de teste, passando pelo desenvolvimento e manutenção de <em>design systems</em>, vemos um campo em plena transformação. Mas o que muda fundamentalmente no nosso papel enquanto designers? Como podemos tirar o maior proveito destas ferramentas para desenvolver o nosso trabalho? Como podemos aplicá-las para elevar o trabalho em equipas multi-disciplinares?</p>
+<section id="proposta-pedagógica" class="level2">
+<h2 class="anchored" data-anchor-id="proposta-pedagógica">Proposta pedagógica</h2>
+<p>Este curso de curta-duração propõe a designers de produto digital desenvolver competências em prototipagem aumentada com IA, com foco nas suas diferentes aplicações práticas no seio de equipas multi-displinares.</p>
+</section>
+<section id="público-alvo" class="level2">
+<h2 class="anchored" data-anchor-id="público-alvo">Público-alvo</h2>
+<p>Designers de produto digital proficientes em concepção de interfaces gráficas, que procurem incorporar técnicas de prototipagem assistida por IA no seu processo de trabalho.</p>
+</section>
+</section>
+<section id="metodologia-de-ensino" class="level1">
+<h1>Metodologia de ensino</h1>
+<p>O curso guia os participantes através de um ciclo de aprendizagem teórico-prático com foco no desenvolvimento de um projecto ao longo da duração do curso. Os alunos são encorajados a escolher um projecto e a aplicar os conceitos e técnicas aprendidos para criar artefactos relevantes para o processo de desenvolvimento de software.</p>
+<p>As aulas ao vivo são complementadas com guias <em>on-demand</em> que cobrem aspectos técnicos, guias de configuração ou matérias complementares, que beneficiem de serem assistidos ao ritmo da preferência ou necessidade de cada aluno.</p>
+<p>O curso é ainda antecipado de um websinar introdutório, com vista a medir o interesse no tema e retirar feedback útil para ajustar o curso às expectativas do público-alvo.</p>
+<section id="princípios-metodológicos" class="level2">
+<h2 class="anchored" data-anchor-id="princípios-metodológicos">Princípios metodológicos</h2>
+<ol type="1">
+<li><strong>Abordagem prática</strong> - os estudantes constroem conhecimento ao aplicar as componentes teóricas do desenvolvimento de um projecto tangível. As sessões expositivas são acompanhadas de exemplos de aplicação dos conceitos aprendidos, motivando a progressão no projecto escolhido.</li>
+<li><strong>Aprendizagem progressiva e cumulativa</strong> - a complexidade dos conceitos e das tarefas de projecto aumenta progressivamente ao longo do curso, permitindo aos alunos construir confiança e conhecimento de forma gradual e cumulativa.</li>
+<li><strong>Multimodalidade e carga cognitiva</strong> - cada módulo combina elementos exposição verbal, com elementos visuais e demonstrações práticas através da partilha de ecrã.</li>
+<li><strong>Transferência de conhecimento</strong> - os conceitos e técnicas aprendidos durante o curso são aplicáveis a diferentes projectos e oferecem uma base sólida para continuar a desenvolver protótipos progressivamente mais complexos.</li>
+</ol>
+</section>
+</section>
+<section id="estrutura-do-curso" class="level1">
+<h1>Estrutura do curso</h1>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Módulo</th>
+<th>Título</th>
+<th>Formato</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td><a href="#0-introdução">Introdução</a></td>
+<td>Ao vivo</td>
+<td>Introdução aos alunos. Descrição breve da estrutura, metodologia e objectivos do curso.</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td><a href="#4-quando-utilizar-prototipagem-assistida-por-ia">Quando e como utilizar prototipagem assistida por IA?</a></td>
+<td>Ao vivo</td>
+<td>Aplicações práticas em diferentes contextos colaborativos.</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td><a href="#3-prompting-e-contexto">Prompting e contexto</a></td>
+<td>Ao vivo</td>
+<td>Introdução a técnicas avançadas de prompting e contexto para o modelo.</td>
+</tr>
+<tr class="even">
+<td>4.1</td>
+<td><a href="#4.1-configuração-do-supabase">Configuração do Supabase</a></td>
+<td>On demand</td>
+<td>Demonstração de como criar uma conta e configurar o Supabase.</td>
+</tr>
+<tr class="odd">
+<td>4.2</td>
+<td><a href="#4-dados-de-teste-e-integração-com-o-supabase">Dados de teste e integração com o Supabase</a></td>
+<td>Ao vivo</td>
+<td>Introduação ao uso do Supbase para integrar dados relevantes com o Figma Make.</td>
+</tr>
+<tr class="even">
+<td>5.1</td>
+<td><a href="#5.1-configuração-do-github">Configuração do GitHub</a></td>
+<td>On demand</td>
+<td>Demonstração de como criar uma conta e configurar o GitHub.</td>
+</tr>
+<tr class="odd">
+<td>5.2</td>
+<td><a href="#5-introdução-a-versionamento-com-github">Introdução a versionamento com GitHub</a></td>
+<td>Ao vivo</td>
+<td>Introdução ao conceito de versionamento e ao git.</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td><a href="#6-acompanhamento-de-projecto">Acompanhamento de projecto</a></td>
+<td>Ao vivo</td>
+<td>Conclusão do curso.</td>
+</tr>
+</tbody>
+</table>
+<section id="introdução-ao-curso" class="level2">
+<h2 class="anchored" data-anchor-id="introdução-ao-curso">1. Introdução ao curso</h2>
+<p>Introdução ao curso e apresentação dos alunos. Descrição breve da estrutura, metodologia e objectivos do curso. Introdução ao funcionamento de LLMs e ao estado da arte da prototipagem assistida por IA. O que muda fundamentalmente na profissão de designer? Como a IA pode transformar o nosso papel? Referências a seguir na indústria.</p>
+<p>Introdução ao projecto prático e boas práticas ao escolher um objecto de trabalho. Apresentação do Figma Make enquanto ferramenta de prototipagem assistida por IA - funcionalidades, limitações e vantagens. Diferenças entre desenho vectorial e prototipagem em código.</p>
+</section>
+<section id="quando-e-como-utilizar-prototipagem-assistida-por-ia" class="level2">
+<h2 class="anchored" data-anchor-id="quando-e-como-utilizar-prototipagem-assistida-por-ia">2. Quando e como utilizar prototipagem assistida por IA</h2>
+<p>Com uma gama tão variada de ferramentas disponíveis e um espaço amplo de possibilidades de aplicação, fica claro que é fundamental adaptar o uso destes artefactos ao contexto e fase do projecto. É assim crucial definir o problema que estamos a procurar resolver, o que pretendemos descobrir e como o protótipo, enquanto artefacto, nos pode ajudar a alcançar esses objectivos. Aplicações práticas em diferentes momentos do ciclo de desenvolvimento: (1) artefacto exploratório, (2) artefacto de validação, (3) micro-interacções, com demonstrações práticas.</p>
+<p>Os alunos são convidados a definir três artefactos relevantes para o seu projecto individual, cobrindo cada uma das aplicações práticas exploradas na componente expositiva.</p>
+</section>
+<section id="prompting-e-contexto" class="level2">
+<h2 class="anchored" data-anchor-id="prompting-e-contexto">3. Prompting e contexto</h2>
+<p>Introdução a técnicas avançadas de prompting. Introdução ao conceito de contexto com MCP (Model Context Protocol) e demostração de integração de bibliotecas através do Figma Make.</p>
+<p>Os alunos são convidados de definição de contexto e configuração de MCP e bibliotecas para prototipagem mais precisa. Início da execução dos protótipos definidos no módulo anterior.</p>
+</section>
+<section id="dados-de-teste-e-integração-com-o-supabase" class="level2">
+<h2 class="anchored" data-anchor-id="dados-de-teste-e-integração-com-o-supabase">4. Dados de teste e integração com o Supabase</h2>
+<p>Como criar um protótipo que utilize dados realistas e relevantes para o projecto? Como criar interacções complexas como filtros ou pesquisas? Introduz-se o conceito de base de dados apresenta-se o Supabase como uma solução low-code com integração directa ao Figma Make. Guia para dados de teste generativamente.</p>
+<p>Demonstração de como criar uma tabela simples que possa ser utilizada num dos protótipos definidos no inicialmente. Acompanhamento dos alunos.</p>
+</section>
+<section id="introdução-a-versionamento-com-github" class="level2">
+<h2 class="anchored" data-anchor-id="introdução-a-versionamento-com-github">5. Introdução a versionamento com GitHub</h2>
+<p>Como garantir um histórico sobre as alterações que são feitas? Como recuperar uma versão anterior do meu protótipo? Introdução ao conceito de versionamento e ao git. Demonstração prática de operações comuns para manter controlo sobre o progresso do projecto e colaborar com colegas.</p>
+<p>Demonstração prática da criação de um repositório e a adição de arquivos através da integração do Figma Make.</p>
+</section>
+<section id="acompanhamento-de-projecto" class="level2">
+<h2 class="anchored" data-anchor-id="acompanhamento-de-projecto">6. Acompanhamento de projecto</h2>
+<p>Acompanhamento de projecto síncrono, cobrindo perguntas frequentes ou temas de interesse dos alunos.</p>
+</section>
+</section>
+<section id="riscos-e-potenciais-soluções" class="level1">
+<h1>Riscos e potenciais soluções</h1>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 34%">
+<col style="width: 65%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Riscos</th>
+<th>Estratégia de mitigação</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Dificuldades no processo de configuração</strong></td>
+<td>Incluir um guia de preparação passo-a-passo em formato video e textual</td>
+</tr>
+<tr class="even">
+<td><strong>Custos com ferramentas</strong></td>
+<td>Tirar partido de periodos de teste e software e APIs de acesso aberto</td>
+</tr>
+<tr class="odd">
+<td><strong>Frustração com erros técnicos</strong></td>
+<td>Normalizar erros e iterações como parte do processo, especialmente quando se trata de ferramentas IA, e manter cenários de erro e resolução nas demonstrações gravadas</td>
+</tr>
+</tbody>
+</table>
+<!-- # Referências
+[Beyond Vibe Coding](https://www.ericli.io/writing/beyond-vibe-coding)
+[Prompting Guide Techniques](https://www.promptingguide.ai/techniques)
+[Weaviate Academy Learning Paths](https://academy.weaviate.io/paths) 
+[Chaparral CLI Skills Cross-org](https://github.com/Manzanita-Research/chaparral)
+-->
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copiada");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copiada");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

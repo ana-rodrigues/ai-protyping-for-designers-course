@@ -1,0 +1,452 @@
+
+/* ============================================
+   Custom Theme by anarodrigues.design
+   ============================================ */
+   
+:root {
+  /* Colors - Dark Theme with Brown Undertones */
+  --background-color: #140e09;
+  --background-color-dark: #0a0808;
+  --background-hover-color: #1c150d;
+  --background-gradient: linear-gradient(to bottom, var(--background-color) 0%, var(--background-color) 20%, var(--background-color-dark) 100%);
+  --surface-color: #1c170d;
+  --surface-color-dark: rgba(30, 25, 22, 0.404);
+  --border-color: #2a251d;
+  --border-color-light: #252018;
+  --border-color-lighter: #302b22;
+  
+  /* Text Colors - Light on Dark with Warm Tones */
+  --primary-text-color: #e6e0d8;
+  --secondary-text-color: #afa8a1;
+  --tertiary-text-color: #aaa49e;
+  
+  /* Accent Color */
+  --accent-color: #9a98f1;
+  --accent-color-background: #151437;
+  --accent-color-hover: rgb(169, 169, 255);
+  
+  /* Spacing System */
+  --spacer-xxsm: 0.25rem;   /* 4px */
+  --spacer-xsm: 0.5rem;      /* 8px */
+  --spacer-sm: 0.75rem;      /* 12px */
+  --spacer-md: 1rem;         /* 16px */
+  --spacer-lg: 1.5rem;       /* 24px */
+  --spacer-xlg: 2rem;        /* 32px */
+  --spacer-xxlg: 3rem;       /* 48px */
+  
+  /* Border Radius */
+  --border-xs: 0.25rem;
+  --border-sm: 0.375rem;
+  --border-md: 0.5rem;
+  --border-lg: 0.75rem;
+}
+
+/* ============================================
+   TYPOGRAPHY
+   ============================================ */
+
+@font-face {
+  font-family: 'PP Editorial Old';
+  src: url('fonts/PPEditorialOld-Ultralight.woff2') format('woff2'),
+       url('fonts/PPEditorialOld-Ultralight.woff') format('woff');
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Departure Mono';
+  src: url('fonts/DepartureMono-Regular.woff2') format('woff2'),
+       url('fonts/DepartureMono-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+html {
+  scroll-behavior: smooth;
+  background-color: var(--background-color-dark);
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 1.7;
+  color: var(--secondary-text-color);
+  background: transparent;
+  position: relative;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100vh;
+  background: var(--background-gradient);
+  z-index: -1;
+}
+
+/* Headings use custom font */
+h1, h2, h3, h4, h5, h6,
+.title {
+  font-family: 'PP Editorial Old', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-weight: 200;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  color: var(--primary-text-color);
+  margin-bottom: var(--spacer-md);
+  margin-top: var(--spacer-xxlg);
+  border-bottom: none !important;
+  font-feature-settings: "liga" 1, "dlig" 1;
+  font-variant-ligatures: common-ligatures discretionary-ligatures;
+}
+
+.title {
+  font-size: 3.5rem;
+  padding-bottom: var(--spacer-lg);
+  font-weight: 200;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 200;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 200;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+h4 {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+/* Monospace for code and metadata */
+code, pre, .mono {
+  font-family: 'Departure Mono', 'Courier New', monospace;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+}
+
+/* ============================================
+   LAYOUT & CONTAINERS
+   ============================================ */
+
+/* Fixed sidebar layout */
+#quarto-margin-sidebar {
+  position: fixed !important;
+  left: 0 !important;
+  height: 100vh !important;
+  overflow-y: auto !important;
+  overflow-x: hidden !important;
+  padding: var(--spacer-xlg) var(--spacer-md) !important;
+  box-sizing: border-box !important;
+}
+
+.sidebar-navigation {
+  position: fixed !important;
+  padding-top: 32px !important;
+  width: 380px !important;
+  max-width: 380px !important;
+  overflow-x: hidden !important;
+  box-sizing: border-box !important;
+}
+
+#TOC {
+  max-width: 100% !important;
+  overflow-wrap: break-word !important;
+  word-wrap: break-word !important;
+}
+
+#quarto-content,
+.page-columns {
+  padding: var(--spacer-md);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+main,
+.quarto-container {
+  margin-left: 120px !important;
+  max-width: 1800px !important;
+}
+
+.quarto-title-block {
+  margin-bottom: var(--spacer-xxlg);
+  padding-bottom: var(--spacer-lg);
+}
+
+/* Capitalize first letter of date */
+.quarto-title-meta-contents .date {
+  text-transform: capitalize;
+}
+
+/* ============================================
+   TABLES
+   ============================================ */
+
+table {
+  width: 100%;
+  margin-top: var(--spacer-lg) !important;
+  border: 1px solid var(--border-color) !important;
+  border-collapse: separate !important;
+  border-spacing: 0 !important;
+  border-radius: var(--border-md);
+  overflow: hidden;
+  background-color: var(--surface-color-dark);
+  font-size: 0.8rem !important;
+}
+
+thead {
+  background-color: var(--surface-color);
+}
+
+th {
+  text-align: left;
+  padding: var(--spacer-sm) var(--spacer-md);
+  font-weight: 400;
+  border-bottom: 1px solid var(--border-color);
+  color: var(--primary-text-color);
+  font-size: 0.7rem !important;
+}
+
+td {
+  padding: var(--spacer-sm) var(--spacer-md);
+  border-bottom: 1px solid var(--border-color-light);
+  vertical-align: top;
+}
+
+tr:hover {
+  background-color: rgba(245, 243, 240, 0.03);
+  transition: background-color 0.2s ease;
+}
+
+tr:last-child td {
+  border-bottom: none;
+}
+
+/* ============================================
+   LINKS
+   ============================================ */
+
+a {
+  color: var(--accent-color);
+  text-decoration: underline;
+  text-decoration-color: var(--border-color-light);
+  text-underline-offset: 0.2em;
+  transition: all 0.25s ease-out;
+}
+
+a:hover {
+  color: var(--accent-color-hover);
+  text-decoration-color: var(--accent-color-hover);
+  transition: all 0.25s ease-out;
+}
+
+/* ============================================
+   TABLE OF CONTENTS
+   ============================================ */
+
+/* Sidebar container */
+.sidebar,
+.sidebar-navigation,
+#quarto-margin-sidebar,
+.quarto-sidebar-section {
+  background-color: transparent !important;
+  padding-right: var(--spacer-lg) !important;
+}
+
+/* Hide TOC title */
+#TOC .toc-title,
+#toc-title,
+.sidebar-title {
+  display: none !important;
+}
+
+#TOC {
+  background-color: transparent;
+  border: none;
+  padding: var(--spacer-md);
+}
+
+#TOC ul {
+  list-style: none;
+  padding-left: var(--spacer-sm);
+  border-left: none !important;
+}
+
+#TOC li {
+  margin-top: var(--spacer-xsm);
+  border-left: none !important;
+}
+
+#TOC a {
+  text-decoration: none;
+  color: var(--secondary-text-color);
+  font-size: 0.8rem;
+  border-left: none !important;
+}
+
+#TOC a:hover {
+  color: var(--accent-color-hover) !important;
+}
+
+#TOC .active {
+  color: var(--accent-color) !important;
+  font-weight: 500;
+}
+
+/* ============================================
+   CODE BLOCKS
+   ============================================ */
+
+pre {
+  background-color: var(--accent-color-background);
+  border: 1px solid var(--border-color) !important;
+  border-radius: var(--border-md) !important;
+  padding: var(--spacer-md) !important;
+  overflow-x: auto;
+  margin: var(--spacer-md) 0;
+}
+
+code {
+  background-color: var(--accent-color-background) !important;
+  color: var(--accent-color) !important;
+  padding: var(--spacer-xxsm) var(--spacer-xsm) !important;
+  border-radius: var(--border-xs) !important;
+  font-size: 0.85em !important;
+}
+
+pre code {
+  background: #1d1a18 !important;
+  color: var(--accent-color) !important;
+  padding: 0 !important;
+}
+
+/* ============================================
+   BLOCKQUOTES
+   ============================================ */
+
+blockquote {
+  border-left: 4px solid var(--border-color-light);
+  padding-left: var(--spacer-md);
+  margin: var(--spacer-lg) 0;
+  font-style: italic;
+  color: var(--secondary-text-color);
+}
+
+/* ============================================
+   LISTS
+   ============================================ */
+
+ul, ol {
+  margin-bottom: var(--spacer-md);
+  padding-left: var(--spacer-lg);
+}
+
+li {
+  margin-bottom: var(--spacer-xsm);
+  line-height: 1.7;
+}
+
+/* ============================================
+   PARAGRAPHS
+   ============================================ */
+
+p {
+  margin-bottom: var(--spacer-md);
+  line-height: 1.7;
+}
+
+/* ============================================
+   RESPONSIVE DESIGN
+   ============================================ */
+
+@media screen and (max-width: 992px) {
+  main,
+  .quarto-container {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  .title {
+    font-size: 2.6rem;
+  }
+
+  h1 {
+    font-size: 1.75rem;
+  }
+  
+  h2 {
+    font-size: 1.35rem;
+  }
+  
+  h3 {
+    font-size: 1.125rem;
+  }
+  
+  #quarto-content {
+    padding: var(--spacer-md);
+  }
+  
+  table {
+    font-size: 0.9rem;
+  }
+  
+  th, td {
+    padding: var(--spacer-xsm) var(--spacer-sm);
+  }
+}
+
+/* ============================================
+   BOTTOM GRADIENT OVERLAY
+   ============================================ */
+
+body::after {
+  content: '';
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 200px;
+  background: linear-gradient(to top, var(--background-color-dark), transparent);
+  pointer-events: none;
+  z-index: 1000;
+}
+
+/* ============================================
+   UTILITY CLASSES
+   ============================================ */
+
+.mono {
+  font-family: 'JetBrains Mono', 'Courier New', monospace;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--secondary-text-color);
+}
+
+.text-secondary {
+  color: var(--secondary-text-color);
+}
+
+.text-tertiary {
+  color: var(--tertiary-text-color);
+}
