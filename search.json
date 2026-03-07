@@ -4,14 +4,7 @@
     "href": "index.html",
     "title": "Prototipagem com IA para designers",
     "section": "",
-    "text": "O rápido desenvolvimento em ferramentas de design e prototipagem assistidos por Inteligência Artificial (IA) vêm a desafiar os limites do que Designers podem produzir hoje em dia no seu trabalho. Desde explorações em série até protótipos complexos com dados de teste, passando pelo desenvolvimento e manutenção de design systems, vemos um campo em plena transformação. Mas o que muda fundamentalmente no nosso papel enquanto designers? Como podemos tirar o maior proveito destas ferramentas para desenvolver o nosso trabalho? Como podemos aplicá-las para elevar o trabalho em equipas multi-disciplinares?\n\n\nEste curso de curta-duração propõe a designers de produto digital desenvolver competências em prototipagem aumentada com IA, com foco nas suas diferentes aplicações práticas no seio de equipas multi-displinares.\n\n\n\nDesigners de produto digital proficientes em concepção de interfaces gráficas, que procurem incorporar técnicas de prototipagem assistida por IA no seu processo de trabalho."
-  },
-  {
-    "objectID": "index.html#proposta-pedagógica",
-    "href": "index.html#proposta-pedagógica",
-    "title": "Prototipagem com IA para designers",
-    "section": "",
-    "text": "Este curso de curta-duração propõe a designers de produto digital desenvolver competências em prototipagem aumentada com IA, com foco nas suas diferentes aplicações práticas no seio de equipas multi-displinares."
+    "text": "O rápido desenvolvimento em ferramentas de design e prototipagem assistidos por Inteligência Artificial (IA) vêm a desafiar os limites do que designers de produto digital podem produzir. Desde explorações em série até protótipos complexos com dados de teste, passando pelo desenvolvimento e manutenção de design systems, vemos um campo em plena transformação. Mas o que muda fundamentalmente no nosso papel enquanto designers? Como podemos tirar o maior proveito destas ferramentas para desenvolver o nosso trabalho? Como podemos aplicá-las para elevar o trabalho em equipas multi-disciplinares?\n\n\nDesigners de produto digital proficientes em concepção de interfaces gráficas, que procurem incorporar técnicas de prototipagem assistida por IA no seu processo de trabalho.\n\n\n\nPropõem-se dois formatos:\n\nIntrodução ao tema através de um webinar curto, com vista a medir o interesse no tema e retirar feedback útil para ajustar o curso às expectativas do público-alvo.\nCurso de curta-duração que propõe a designers de produto digital desenvolver competências em prototipagem aumentada com IA com Figma Make, com foco nas suas diferentes aplicações práticas no seio de equipas multi-displinares. O curso ao vivo apresenta-se como a extensão natural do webinar, onde os alunos podem explorar estes temas em maior profundidade e operacionalizar os conhecimentos de forma prática."
   },
   {
     "objectID": "index.html#público-alvo",
@@ -21,52 +14,108 @@
     "text": "Designers de produto digital proficientes em concepção de interfaces gráficas, que procurem incorporar técnicas de prototipagem assistida por IA no seu processo de trabalho."
   },
   {
+    "objectID": "index.html#proposta-pedagógica",
+    "href": "index.html#proposta-pedagógica",
+    "title": "Prototipagem com IA para designers",
+    "section": "",
+    "text": "Propõem-se dois formatos:\n\nIntrodução ao tema através de um webinar curto, com vista a medir o interesse no tema e retirar feedback útil para ajustar o curso às expectativas do público-alvo.\nCurso de curta-duração que propõe a designers de produto digital desenvolver competências em prototipagem aumentada com IA com Figma Make, com foco nas suas diferentes aplicações práticas no seio de equipas multi-displinares. O curso ao vivo apresenta-se como a extensão natural do webinar, onde os alunos podem explorar estes temas em maior profundidade e operacionalizar os conhecimentos de forma prática."
+  },
+  {
+    "objectID": "index.html#estrutura-do-webinar",
+    "href": "index.html#estrutura-do-webinar",
+    "title": "Prototipagem com IA para designers",
+    "section": "Estrutura do webinar",
+    "text": "Estrutura do webinar\n\nIntrodução breve à prototipagem em código assistida por IA: o que muda fundamentalmente entre design vectorial e design em código?\nPrototipagem em contexto de equipa vs. vibe coding unilateralmente\nQuando e como aplicar a este tipo de artefactos de design?\nExemplos práticos: o protótipo enquanto (1) artefacto exploratório, (2) artefacto com dados de teste, (3) artefacto para validação, (4) artefacto de refinamento - com demonstrações práticas."
+  },
+  {
     "objectID": "index.html#princípios-metodológicos",
     "href": "index.html#princípios-metodológicos",
     "title": "Prototipagem com IA para designers",
     "section": "Princípios metodológicos",
-    "text": "Princípios metodológicos\n\nAbordagem prática - os estudantes constroem conhecimento ao aplicar as componentes teóricas do desenvolvimento de um projecto tangível. As sessões expositivas são acompanhadas de exemplos de aplicação dos conceitos aprendidos, motivando a progressão no projecto escolhido.\nAprendizagem progressiva e cumulativa - a complexidade dos conceitos e das tarefas de projecto aumenta progressivamente ao longo do curso, permitindo aos alunos construir confiança e conhecimento de forma gradual e cumulativa.\nMultimodalidade e carga cognitiva - cada módulo combina elementos exposição verbal, com elementos visuais e demonstrações práticas através da partilha de ecrã.\nTransferência de conhecimento - os conceitos e técnicas aprendidos durante o curso são aplicáveis a diferentes projectos e oferecem uma base sólida para continuar a desenvolver protótipos progressivamente mais complexos."
+    "text": "Princípios metodológicos\n\nAbordagem teórico-prática - os estudantes são guiados na aplicação dos conceitos aprendidos, tanto através de demonstrações práticas, como através do acompanhamento do projecto.\nAprendizagem progressiva e cumulativa - a complexidade dos conceitos e das tarefas de projecto aumenta progressivamente ao longo do curso, permitindo aos alunos construir confiança e conhecimento de forma gradual e cumulativa.\nGestão da carga cognitiva - enquanto que módulos mais teóricos e críticos são abordados nas aulas ao vivo, permitindo a discussão e troca de ideias, aspectos técnicos são disponibilizados através de aulas pré-gravadas, permitindo aos alunos acompanhar no seu próprio ritmo.\nTransferência de conhecimento - os conhecimentos adquiridos são aplicáveis a diferentes projectos e ferramentas, e oferecem uma base sólida para continuar a desenvolver aprendizagem fora do contexto do curso."
   },
   {
-    "objectID": "index.html#introdução-ao-curso",
-    "href": "index.html#introdução-ao-curso",
+    "objectID": "index.html#estrutura-do-curso",
+    "href": "index.html#estrutura-do-curso",
     "title": "Prototipagem com IA para designers",
-    "section": "1. Introdução ao curso",
-    "text": "1. Introdução ao curso\nIntrodução ao curso e apresentação dos alunos. Descrição breve da estrutura, metodologia e objectivos do curso. Introdução ao funcionamento de LLMs e ao estado da arte da prototipagem assistida por IA. O que muda fundamentalmente na profissão de designer? Como a IA pode transformar o nosso papel? Referências a seguir na indústria.\nIntrodução ao projecto prático e boas práticas ao escolher um objecto de trabalho. Apresentação do Figma Make enquanto ferramenta de prototipagem assistida por IA - funcionalidades, limitações e vantagens. Diferenças entre desenho vectorial e prototipagem em código."
+    "section": "Estrutura do curso",
+    "text": "Estrutura do curso\nChave da tabela: “A” corresponde a módulos ao vivo, enquanto “B” corresponde aos módulos pré-gravados.\n\n\n\nMódulo\nTítulo\nFormato\nDescrição\n\n\n\n\nA.1\nIntrodução ao curso\nAo vivo\nIntrodução aos alunos. Descrição breve da estrutura, metodologia e objectivos do curso.\n\n\nA.2\nQuando e como utilizar prototipagem assistida por IA\nAo vivo\nAplicações práticas em diferentes contextos colaborativos.\n\n\nA.3\nO protótipo como artefacto exploratório\nAo vivo\nUtilização da capacidade generativa da IA para explorar possibilidades e padrões de interacção.\n\n\nA.4\nO protótipo como artefacto com dados de teste\nAo vivo\nTrabalhar com dados reais e criar interacções complexas com filtros e pesquisas.\n\n\nA.5\nO protótipo como artefacto para validação\nAo vivo\nUtilização de protótipos para testes de usabilidade e validação.\n\n\nA.6\nO protótipo como artefacto de refinamento\nAo vivo\nRefinamento de detalhes e micro-interacções para comunicação com equipas.\n\n\nA.7\nConclusão do curso\nAo vivo\nConclusão do curso, com conclusões e questões por parte dos alunos.\n\n\nB.1\nPrompting, contexto e integrações\nOn-demand\nIntrodução a técnicas avançadas de prompting e contexto.\n\n\nB.2\nDados de teste e integração com o Supabase\nOn-demand\nIntrodução ao uso do Supabase para integrar dados relevantes com o Figma Make.\n\n\nB.3\nIntrodução a versionamento com GitHub\nOn-demand\nIntrodução ao conceito de versionamento e ao git."
   },
   {
-    "objectID": "index.html#quando-e-como-utilizar-prototipagem-assistida-por-ia",
-    "href": "index.html#quando-e-como-utilizar-prototipagem-assistida-por-ia",
+    "objectID": "index.html#a.1-introdução-ao-curso",
+    "href": "index.html#a.1-introdução-ao-curso",
     "title": "Prototipagem com IA para designers",
-    "section": "2. Quando e como utilizar prototipagem assistida por IA",
-    "text": "2. Quando e como utilizar prototipagem assistida por IA\nCom uma gama tão variada de ferramentas disponíveis e um espaço amplo de possibilidades de aplicação, fica claro que é fundamental adaptar o uso destes artefactos ao contexto e fase do projecto. É assim crucial definir o problema que estamos a procurar resolver, o que pretendemos descobrir e como o protótipo, enquanto artefacto, nos pode ajudar a alcançar esses objectivos. Aplicações práticas em diferentes momentos do ciclo de desenvolvimento: (1) artefacto exploratório, (2) artefacto de validação, (3) micro-interacções, com demonstrações práticas.\nOs alunos são convidados a definir três artefactos relevantes para o seu projecto individual, cobrindo cada uma das aplicações práticas exploradas na componente expositiva."
+    "section": "A.1 Introdução ao curso",
+    "text": "A.1 Introdução ao curso\nIntrodução ao curso e apresentação dos alunos. Descrição breve da estrutura, metodologia e objectivos do curso. Introdução ao funcionamento de LLMs e ao estado da arte da prototipagem assistida por IA. O que difere entre desenho vectorial e desenho em código? Como obter resultados satisfatórios com uma ferramenta como o Figma Make? Como a podemos integrar no nosso processo de desenho? Como podem diferentes artefactos complementar-se?\nApresentação do Figma Make enquanto ferramenta de prototipagem assistida por IA de fácil acesso - funcionalidades, limitações e vantagens. Introdução à componente prática e boas práticas ao escolher um objecto de trabalho."
   },
   {
-    "objectID": "index.html#prompting-e-contexto",
-    "href": "index.html#prompting-e-contexto",
+    "objectID": "index.html#a.2-quando-e-como-utilizar-prototipagem-assistida-por-ia",
+    "href": "index.html#a.2-quando-e-como-utilizar-prototipagem-assistida-por-ia",
     "title": "Prototipagem com IA para designers",
-    "section": "3. Prompting e contexto",
-    "text": "3. Prompting e contexto\nIntrodução a técnicas avançadas de prompting. Introdução ao conceito de contexto com MCP (Model Context Protocol) e demostração de integração de bibliotecas através do Figma Make.\nOs alunos são convidados de definição de contexto e configuração de MCP e bibliotecas para prototipagem mais precisa. Início da execução dos protótipos definidos no módulo anterior."
+    "section": "A.2 Quando e como utilizar prototipagem assistida por IA",
+    "text": "A.2 Quando e como utilizar prototipagem assistida por IA\nCom uma gama tão variada de ferramentas disponíveis e um espaço amplo de possibilidades de aplicação, fica claro que é fundamental adaptar o uso destes artefactos ao contexto e fase do projecto. É assim crucial definir o problema que estamos a procurar resolver, o que pretendemos descobrir e como o protótipo, enquanto artefacto, nos pode ajudar a alcançar esses objectivos. Aplicações práticas em diferentes momentos do ciclo de desenvolvimento: (1) artefacto exploratório, (2) artefacto com dados de teste, (3) artefacto para validação, (4) artefacto de refinamento - com demonstrações práticas.\nAssíncronamente, os alunos são convidados a definir quatro protótipos entregáveis, cobrindo cada uma das aplicações práticas exploradas na componente expositiva. Todos os quatro artefactos devem oferecer aproximações ao seu projecto individual. Os alunos que pretendam desenvolver a componente prática podem apresentar o seu plano de entregáveis assíncronamente, e receberão feedback escrito para ajudar a afinar o escopo de trabalho."
   },
   {
-    "objectID": "index.html#dados-de-teste-e-integração-com-o-supabase",
-    "href": "index.html#dados-de-teste-e-integração-com-o-supabase",
+    "objectID": "index.html#a.3-o-protótipo-como-artefacto-exploratório",
+    "href": "index.html#a.3-o-protótipo-como-artefacto-exploratório",
     "title": "Prototipagem com IA para designers",
-    "section": "4. Dados de teste e integração com o Supabase",
-    "text": "4. Dados de teste e integração com o Supabase\nComo criar um protótipo que utilize dados realistas e relevantes para o projecto? Como criar interacções complexas como filtros ou pesquisas? Introduz-se o conceito de base de dados apresenta-se o Supabase como uma solução low-code com integração directa ao Figma Make. Guia para dados de teste generativamente.\nDemonstração de como criar uma tabela simples que possa ser utilizada num dos protótipos definidos no inicialmente. Acompanhamento dos alunos."
+    "section": "A.3 O protótipo como artefacto exploratório",
+    "text": "A.3 O protótipo como artefacto exploratório\nJá experimentaram pedir a um modelo que prototipe ou desenhe uma aplicação de streaming de música ou vídeo? Que tipo de resultado obtêm numa primeira iteração? Como é que esse resultado se compara a aplicações reais? Neste módulo explora-se como utilizar a capacidade generativa da inteligência artificial para explorar possibilidades e analisar padrões de interacção comuns. Aprende-se como ler esses resultados criticamente a adaptá-los à realidade do produto e da audiência com que estamos a trabalhar.\nAcompanhamento de projectos e questões dos alunos."
   },
   {
-    "objectID": "index.html#introdução-a-versionamento-com-github",
-    "href": "index.html#introdução-a-versionamento-com-github",
+    "objectID": "index.html#a.4-o-protótipo-como-artefacto-com-dados-de-teste",
+    "href": "index.html#a.4-o-protótipo-como-artefacto-com-dados-de-teste",
     "title": "Prototipagem com IA para designers",
-    "section": "5. Introdução a versionamento com GitHub",
-    "text": "5. Introdução a versionamento com GitHub\nComo garantir um histórico sobre as alterações que são feitas? Como recuperar uma versão anterior do meu protótipo? Introdução ao conceito de versionamento e ao git. Demonstração prática de operações comuns para manter controlo sobre o progresso do projecto e colaborar com colegas.\nDemonstração prática da criação de um repositório e a adição de arquivos através da integração do Figma Make."
+    "section": "A.4 O protótipo como artefacto com dados de teste",
+    "text": "A.4 O protótipo como artefacto com dados de teste\nQuando desenhamos com recurso a ferramentas vectoriais, temos muitas vezes opções limitadas no que respeita a trabalhar com dados reais - formatos inesperados, simulação de estados de componentes, dificuldade em demonstrar micro-interacções com pesquisas, filtros, ordenação, etc. Neste módulo explora-se como pensar na arquitectura de dados, colaborar com equipas de engenharia e criar dados de teste que façam o nosso protótipo funcionar de forma realista.\nAcompanhamento de projectos e questões dos alunos."
   },
   {
-    "objectID": "index.html#acompanhamento-de-projecto",
-    "href": "index.html#acompanhamento-de-projecto",
+    "objectID": "index.html#a.5-o-protótipo-como-artefacto-para-validação",
+    "href": "index.html#a.5-o-protótipo-como-artefacto-para-validação",
     "title": "Prototipagem com IA para designers",
-    "section": "6. Acompanhamento de projecto",
-    "text": "6. Acompanhamento de projecto\nAcompanhamento de projecto síncrono, cobrindo perguntas frequentes ou temas de interesse dos alunos."
+    "section": "A.5 O protótipo como artefacto para validação",
+    "text": "A.5 O protótipo como artefacto para validação\nAo trabalhar num produto digital, é comum identificarmos potenciais riscos ou aspectos da jornada e interacções de utilizador sobre os quais procuramos desenvolver mais confiança. Para isso, geralmente recorremos a testes de usabilidade com recurso a protótipos. Neste módulo, exploramos como identificar os pontos a validar e ajustar o protótipo para ser utilizado como artefacto de validação.\nAcompanhamento de projectos e questões dos alunos."
+  },
+  {
+    "objectID": "index.html#a.6-o-protótipo-como-artefacto-de-refinamento",
+    "href": "index.html#a.6-o-protótipo-como-artefacto-de-refinamento",
+    "title": "Prototipagem com IA para designers",
+    "section": "A.6 O protótipo como artefacto de refinamento",
+    "text": "A.6 O protótipo como artefacto de refinamento\nQuando já temos um protótipo funcional, podemos utilizar a inteligência artificial para refinar detalhes, melhorar a usabilidade e adaptar o design às necessidades dos utilizadores e ao que aprendemos durante a fase de validação. Neste módulo, exploramos como protipar pequenas micro-interacções de forma a comunicar melhor o que pretendemos à nossa equipa de desenvolvimento.\nAcompanhamento de projectos e questões dos alunos."
+  },
+  {
+    "objectID": "index.html#a.7-conclusão-do-curso",
+    "href": "index.html#a.7-conclusão-do-curso",
+    "title": "Prototipagem com IA para designers",
+    "section": "A.7 Conclusão do curso",
+    "text": "A.7 Conclusão do curso\nConclui-se o curso, com conclusões e partilha por parte dos alunos. A formadora aborda questões ou temas pré-submetidos pelos alunos. Esta aula pode servir de complemento e/ou acompanhamento aos projectos individuais."
+  },
+  {
+    "objectID": "index.html#módulos-on-demand",
+    "href": "index.html#módulos-on-demand",
+    "title": "Prototipagem com IA para designers",
+    "section": "Módulos on demand",
+    "text": "Módulos on demand\nTrês módulos práticos são disponibilizados em formato vídeo pré-gravado após a introdução do curso. Estes equipam os alunos com domínio técnico adicional para executarem os seus protótipos com sucesso:"
+  },
+  {
+    "objectID": "index.html#b.1.-prompting-contexto-e-integrações",
+    "href": "index.html#b.1.-prompting-contexto-e-integrações",
+    "title": "Prototipagem com IA para designers",
+    "section": "B.1. Prompting, contexto e integrações",
+    "text": "B.1. Prompting, contexto e integrações\nIntrodução a técnicas avançadas de prompting. Introdução ao conceito de contexto com MCP (Model Context Protocol) e demostração de integração de bibliotecas através do Figma Make.\nOs alunos são convidados de definição de contexto e configuração de MCP e bibliotecas para prototipagem mais precisa. Início da execução dos protótipos definidos no módulo anterior."
+  },
+  {
+    "objectID": "index.html#b.2.-dados-de-teste-e-integração-com-o-supabase",
+    "href": "index.html#b.2.-dados-de-teste-e-integração-com-o-supabase",
+    "title": "Prototipagem com IA para designers",
+    "section": "B.2. Dados de teste e integração com o Supabase",
+    "text": "B.2. Dados de teste e integração com o Supabase\nComo criar um protótipo que utilize dados realistas e relevantes para o projecto? Como criar interacções complexas como filtros ou pesquisas? Introduz-se o conceito de base de dados apresenta-se o Supabase como uma solução low-code com integração directa ao Figma Make.\nDemonstração de como definir uma estrutura de dados a partir das explorações de design e criar uma base de dados no Supabase Acompanhamento dos alunos."
+  },
+  {
+    "objectID": "index.html#b.3.-introdução-a-versionamento-com-github",
+    "href": "index.html#b.3.-introdução-a-versionamento-com-github",
+    "title": "Prototipagem com IA para designers",
+    "section": "B.3. Introdução a versionamento com GitHub",
+    "text": "B.3. Introdução a versionamento com GitHub\nComo garantir um histórico sobre as alterações que são feitas? Como recuperar uma versão anterior do meu protótipo? Introdução ao conceito de versionamento e ao git. Demonstração prática de operações comuns para manter controlo sobre o progresso do projecto e colaborar com colegas.\nDemonstração prática da criação de um repositório e a adição de arquivos através da integração do Figma Make."
   }
 ]

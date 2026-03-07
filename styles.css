@@ -346,7 +346,7 @@ blockquote {
   padding-left: var(--spacer-md);
   margin: var(--spacer-lg) 0;
   font-style: italic;
-  color: var(--secondary-text-color);
+  color: var(--secondary-text-color) !important; 
 }
 
 /* ============================================
