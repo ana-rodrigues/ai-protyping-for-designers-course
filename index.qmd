@@ -9,10 +9,10 @@ format:
 ---
 
 # Introdução
-O rápido desenvolvimento em ferramentas de design e prototipagem assistidos por Inteligência Artificial (IA) vêm a desafiar os limites do que designers de produto digital podem produzir. Desde explorações em série até protótipos complexos com dados de teste, passando pelo desenvolvimento e manutenção de _design systems_, vemos um campo em plena transformação. Mas o que muda fundamentalmente no nosso papel enquanto designers? Como podemos tirar o maior proveito destas ferramentas para desenvolver o nosso trabalho? Como podemos aplicá-las para elevar o trabalho em equipas multi-disciplinares?
+O rápido desenvolvimento em ferramentas de design e prototipagem assistidos por Inteligência Artificial (IA) vêm a desafiar os limites do que designers de produto digital podem produzir. Desde explorações em série até protótipos complexos com dados de teste, passando pelo desenvolvimento e manutenção de _design systems_, vemos um campo em plena transformação. Mas o que muda fundamentalmente no nosso papel enquanto designers? Como podemos tirar o maior proveito destas ferramentas para elevar o nosso contributo em equipas multi-disciplinares?
 
 ## Público-alvo
-Designers de produto digital proficientes em concepção de interfaces gráficas, que procurem incorporar técnicas de prototipagem assistida por IA no seu processo de trabalho.
+Designers de produto digital experientes em concepção de interfaces gráficas, que procurem incorporar técnicas de prototipagem assistida por IA no seu processo de trabalho.
 
 ## Proposta pedagógica
 Propõem-se dois formatos:
@@ -100,7 +100,7 @@ Conclui-se o curso, com conclusões e partilha por parte dos alunos. A formadora
 Três módulos práticos são disponibilizados em formato vídeo pré-gravado após a introdução do curso. Estes equipam os alunos com domínio técnico adicional para executarem os seus protótipos com sucesso:
 
 ## B.1. Prompting, contexto e integrações
-Introdução a técnicas avançadas de prompting. Introdução ao conceito de contexto com MCP (Model Context Protocol) e demostração de integração de bibliotecas através do Figma Make.
+Introdução a técnicas avançadas de prompting. Introdução ao conceito de contexto e ferramentas com MCP (Model Context Protocol) e demostração de integração de bibliotecas através do Figma Make.
 
 Os alunos são convidados de definição de contexto e configuração de MCP e bibliotecas para prototipagem mais precisa. Início da execução dos protótipos definidos no módulo anterior.
 
@@ -121,7 +121,6 @@ Demonstração prática da criação de um repositório e a adição de arquivos
 | **Dificuldades no processo de configuração** | Tópicos mais técnicos são disponibilizados com guias-video passo-a-passo. Os alunos podem clarificar questões assíncronamente ou na segunda metade de cada aula |
 | **Custos com ferramentas** | Tira-se partido de licenças de educação do Figma Make e periodos de teste de ferramentas como o Supabase |
 | **Frustração com erros técnicos** | Normalizam-se erros e iterações como parte do processo, especialmente quando se trata de ferramentas IA, e mantêm-se cenários de erro e resolução nas demonstrações gravadas |
-| **Desinteresse na componente prática** | Os alunos podem não ter tempo ou interesse no desenvolvimento da componente prática, tornando os momentos de acompanhamento menos relevantes |
 
 
 <!-- # Referências
