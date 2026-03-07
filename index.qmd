@@ -9,77 +9,119 @@ format:
 ---
 
 # Introdução
-O rápido desenvolvimento em ferramentas de design e prototipagem assistidos por Inteligência Artificial (IA) vêm a desafiar os limites do que Designers podem produzir hoje em dia no seu trabalho. Desde explorações em série até protótipos complexos com dados de teste, passando pelo desenvolvimento e manutenção de _design systems_, vemos um campo em plena transformação. Mas o que muda fundamentalmente no nosso papel enquanto designers? Como podemos tirar o maior proveito destas ferramentas para desenvolver o nosso trabalho? Como podemos aplicá-las para elevar o trabalho em equipas multi-disciplinares?
-
-## Proposta pedagógica
-Este curso de curta-duração propõe a designers de produto digital desenvolver competências em prototipagem aumentada com IA, com foco nas suas diferentes aplicações práticas no seio de equipas multi-displinares.
+O rápido desenvolvimento em ferramentas de design e prototipagem assistidos por Inteligência Artificial (IA) vêm a desafiar os limites do que designers de produto digital podem produzir. Desde explorações em série até protótipos complexos com dados de teste, passando pelo desenvolvimento e manutenção de _design systems_, vemos um campo em plena transformação. Mas o que muda fundamentalmente no nosso papel enquanto designers? Como podemos tirar o maior proveito destas ferramentas para desenvolver o nosso trabalho? Como podemos aplicá-las para elevar o trabalho em equipas multi-disciplinares?
 
 ## Público-alvo
 Designers de produto digital proficientes em concepção de interfaces gráficas, que procurem incorporar técnicas de prototipagem assistida por IA no seu processo de trabalho.
 
-# Metodologia de ensino
-O curso guia os participantes através de um ciclo de aprendizagem teórico-prático com foco no desenvolvimento de um projecto ao longo da duração do curso. Os alunos são encorajados a escolher um projecto e a aplicar os conceitos e técnicas aprendidos para criar artefactos relevantes para o processo de desenvolvimento de software.
+## Proposta pedagógica
+Propõem-se dois formatos:
 
-As aulas ao vivo são complementadas com guias _on-demand_ que cobrem aspectos técnicos, guias de configuração ou matérias complementares, que beneficiem de serem assistidos ao ritmo da preferência ou necessidade de cada aluno.
+1. Introdução ao tema através de um _webinar_ curto, com vista a medir o interesse no tema e retirar feedback útil para ajustar o curso às expectativas do público-alvo.
 
-O curso é ainda antecipado de um websinar introdutório, com vista a medir o interesse no tema e retirar feedback útil para ajustar o curso às expectativas do público-alvo.
+2. Curso de curta-duração que propõe a designers de produto digital desenvolver competências em prototipagem aumentada com IA com Figma Make, com foco nas suas diferentes aplicações práticas no seio de equipas multi-displinares. O curso ao vivo apresenta-se como a extensão natural do webinar, onde os alunos podem explorar estes temas em maior profundidade e operacionalizar os conhecimentos de forma prática.
+
+# Webinar introdutório
+> Com uma gama tão variada de ferramentas disponíveis para prototipagem assistida por IA e um espaço amplo de possibilidades de aplicação, por onde começar? Como posso, enquanto designer, incorporar estas ferramentas e técnicas no meu contexto profissional? O que muda na minha contribuição enquanto designer? 
+<br>
+<br>
+O webinar introduz estratégias para designers implementarem o uso de ferramentas de prototipagem assistida por IA no seu dia-a-dia, usando como exemplo o Figma Make - uma ferramenta que a larga maioria dos profissionais e estudantes já tem acesso através da sua subscrição de Figma. Com recurso a exemplos práticos, apresentam-se diferentes aplicações deste tipo de artefacto ao longo do processo de desenvolvimento de software em contexto de equipas multi-disciplinares.
+
+## Estrutura do _webinar_
+1. Introdução breve à prototipagem em código assistida por IA: o que muda fundamentalmente entre design vectorial e design em código?
+2. Prototipagem em contexto de equipa vs. _vibe coding_ unilateralmente
+3. Quando e como aplicar a este tipo de artefactos de design?
+4. Exemplos práticos: o protótipo enquanto (1) artefacto exploratório, (2) artefacto com dados de teste, (3) artefacto para validação, (4) artefacto de refinamento - com demonstrações práticas.
+
+
+# Curso ao vivo
+O curso guia os participantes através de um ciclo de aprendizagem teórico-prático aprofundado. Todos os módulos são demonstrados com recurso a um projecto exemplo. Os alunos são encorajados a escolher o mesmo projecto, ou um outro projecto de complexidade semelhante, para que possam aplicar os conceitos e técnicas aprendidos. 
+
+As aulas ao vivo são complementadas com guias _on-demand_ que cobrem aspectos mais técnicos, guias de configuração ou matérias complementares, que beneficiem de serem assistidos ao ritmo da preferência ou necessidade de cada aluno.
 
 ## Princípios metodológicos
 
-1. **Abordagem prática** - os estudantes constroem conhecimento ao aplicar as componentes teóricas do desenvolvimento de um projecto tangível. As sessões expositivas são acompanhadas de exemplos de aplicação dos conceitos aprendidos, motivando a progressão no projecto escolhido. 
+1. **Abordagem teórico-prática** - os estudantes são guiados na aplicação dos conceitos aprendidos, tanto através de demonstrações práticas, como através do acompanhamento do projecto.
 2. **Aprendizagem progressiva e cumulativa** - a complexidade dos conceitos e das tarefas de projecto aumenta progressivamente ao longo do curso, permitindo aos alunos construir confiança e conhecimento de forma gradual e cumulativa.
-3. **Multimodalidade e carga cognitiva** - cada módulo combina elementos exposição verbal, com elementos visuais e demonstrações práticas através da partilha de ecrã.
-4. **Transferência de conhecimento** - os conceitos e técnicas aprendidos durante o curso são aplicáveis a diferentes projectos e oferecem uma base sólida para continuar a desenvolver protótipos progressivamente mais complexos.
+3. **Gestão da carga cognitiva** - enquanto que módulos mais teóricos e críticos são abordados nas aulas ao vivo, permitindo a discussão e troca de ideias, aspectos técnicos são disponibilizados através de aulas pré-gravadas, permitindo aos alunos acompanhar no seu próprio ritmo.
+4. **Transferência de conhecimento** - os conhecimentos adquiridos são aplicáveis a diferentes projectos e ferramentas, e oferecem uma base sólida para continuar a desenvolver aprendizagem fora do contexto do curso.
 
+## Estrutura do curso
 
-# Estrutura do curso
+Chave da tabela: "A" corresponde a módulos ao vivo, enquanto "B" corresponde aos módulos pré-gravados.
 
 | Módulo | Título | Formato | Descrição
 |----|-------|---------|----------------|
-| 1 | [Introdução](#0-introdução) | Ao vivo | Introdução aos alunos. Descrição breve da estrutura, metodologia e objectivos do curso.
-| 2 | [Quando e como utilizar prototipagem assistida por IA?](#4-quando-utilizar-prototipagem-assistida-por-ia) | Ao vivo | Aplicações práticas em diferentes contextos colaborativos.
-| 3 | [Prompting e contexto](#3-prompting-e-contexto) | Ao vivo | Introdução a técnicas avançadas de prompting e contexto para o modelo.
-| 4.1 | [Configuração do Supabase](#4.1-configuração-do-supabase) | On demand | Demonstração de como criar uma conta e configurar o Supabase.
-| 4.2 | [Dados de teste e integração com o Supabase](#4-dados-de-teste-e-integração-com-o-supabase) | Ao vivo | Introduação ao uso do Supbase para integrar dados relevantes com o Figma Make.
-| 5.1 | [Configuração do GitHub](#5.1-configuração-do-github) | On demand | Demonstração de como criar uma conta e configurar o GitHub.
-| 5.2 | [Introdução a versionamento com GitHub](#5-introdução-a-versionamento-com-github) | Ao vivo | Introdução ao conceito de versionamento e ao git. 
-| 6 | [Acompanhamento de projecto](#6-acompanhamento-de-projecto) | Ao vivo |Conclusão do curso.
+| A.1 | [Introdução ao curso](#a.1-introdução-ao-curso) | Ao vivo | Introdução aos alunos. Descrição breve da estrutura, metodologia e objectivos do curso.
+| A.2 | [Quando e como utilizar prototipagem assistida por IA](#a.2-quando-e-como-utilizar-prototipagem-assistida-por-ia) | Ao vivo | Aplicações práticas em diferentes contextos colaborativos.
+| A.3 | [O protótipo como artefacto exploratório](#a.3-o-protótipo-como-artefacto-exploratório) | Ao vivo | Utilização da capacidade generativa da IA para explorar possibilidades e padrões de interacção.
+| A.4 | [O protótipo como artefacto com dados de teste](#a.4-o-protótipo-como-artefacto-com-dados-de-teste) | Ao vivo | Trabalhar com dados reais e criar interacções complexas com filtros e pesquisas.
+| A.5 | [O protótipo como artefacto para validação](#a.5-o-protótipo-como-artefacto-para-validação) | Ao vivo | Utilização de protótipos para testes de usabilidade e validação.
+| A.6 | [O protótipo como artefacto de refinamento](#a.6-o-protótipo-como-artefacto-de-refinamento) | Ao vivo | Refinamento de detalhes e micro-interacções para comunicação com equipas.
+| A.7 | [Conclusão do curso](#a.7-conclusão-do-curso) | Ao vivo | Conclusão do curso, com conclusões e questões por parte dos alunos.
+| B.1 | [Prompting, contexto e integrações](#b.1.-prompting-contexto-e-integrações) | On-demand | Introdução a técnicas avançadas de prompting e contexto.
+| B.2 | [Dados de teste e integração com o Supabase](#b.2.-dados-de-teste-e-integração-com-o-supabase) | On-demand | Introdução ao uso do Supabase para integrar dados relevantes com o Figma Make.
+| B.3 | [Introdução a versionamento com GitHub](#b.3.-introdução-a-versionamento-com-github) | On-demand | Introdução ao conceito de versionamento e ao git.
 
-## 1. Introdução ao curso
-Introdução ao curso e apresentação dos alunos. Descrição breve da estrutura, metodologia e objectivos do curso. Introdução ao funcionamento de LLMs e ao estado da arte da prototipagem assistida por IA. O que muda fundamentalmente na profissão de designer? Como a IA pode transformar o nosso papel? Referências a seguir na indústria.
+## A.1 Introdução ao curso
+Introdução ao curso e apresentação dos alunos. Descrição breve da estrutura, metodologia e objectivos do curso. Introdução ao funcionamento de LLMs e ao estado da arte da prototipagem assistida por IA. O que difere entre desenho vectorial e desenho em código? Como obter resultados satisfatórios com uma ferramenta como o Figma Make? Como a podemos integrar no nosso processo de desenho? Como podem diferentes artefactos complementar-se?
 
-Introdução ao projecto prático e boas práticas ao escolher um objecto de trabalho. Apresentação do Figma Make enquanto ferramenta de prototipagem assistida por IA - funcionalidades, limitações e vantagens. Diferenças entre desenho vectorial e prototipagem em código.
+Apresentação do Figma Make enquanto ferramenta de prototipagem assistida por IA de fácil acesso - funcionalidades, limitações e vantagens. Introdução à componente prática e boas práticas ao escolher um objecto de trabalho. 
 
-## 2. Quando e como utilizar prototipagem assistida por IA
-Com uma gama tão variada de ferramentas disponíveis e um espaço amplo de possibilidades de aplicação, fica claro que é fundamental adaptar o uso destes artefactos ao contexto e fase do projecto. É assim crucial definir o problema que estamos a procurar resolver, o que pretendemos descobrir e como o protótipo, enquanto artefacto, nos pode ajudar a alcançar esses objectivos. Aplicações práticas em diferentes momentos do ciclo de desenvolvimento: (1) artefacto exploratório, (2) artefacto de validação, (3) micro-interacções, com demonstrações práticas. 
+## A.2 Quando e como utilizar prototipagem assistida por IA
+Com uma gama tão variada de ferramentas disponíveis e um espaço amplo de possibilidades de aplicação, fica claro que é fundamental adaptar o uso destes artefactos ao contexto e fase do projecto. É assim crucial definir o problema que estamos a procurar resolver, o que pretendemos descobrir e como o protótipo, enquanto artefacto, nos pode ajudar a alcançar esses objectivos. Aplicações práticas em diferentes momentos do ciclo de desenvolvimento: (1) artefacto exploratório, (2) artefacto com dados de teste, (3) artefacto para validação, (4) artefacto de refinamento - com demonstrações práticas. 
 
-Os alunos são convidados a definir três artefactos relevantes para o seu projecto individual, cobrindo cada uma das aplicações práticas exploradas na componente expositiva.
+Assíncronamente, os alunos são convidados a definir quatro protótipos entregáveis, cobrindo cada uma das aplicações práticas exploradas na componente expositiva. Todos os quatro artefactos devem oferecer aproximações ao seu projecto individual. Os alunos que pretendam desenvolver a componente prática podem apresentar o seu plano de entregáveis assíncronamente, e receberão feedback escrito para ajudar a afinar o escopo de trabalho.
 
-## 3. Prompting e contexto
+## A.3 O protótipo como artefacto exploratório
+Já experimentaram pedir a um modelo que prototipe ou desenhe uma aplicação de streaming de música ou vídeo? Que tipo de resultado obtêm numa primeira iteração? Como é que esse resultado se compara a aplicações reais? Neste módulo explora-se como utilizar a capacidade generativa da inteligência artificial para explorar possibilidades e analisar padrões de interacção comuns. Aprende-se como ler esses resultados criticamente a adaptá-los à realidade do produto e da audiência com que estamos a trabalhar.
+
+Acompanhamento de projectos e questões dos alunos.
+
+## A.4 O protótipo como artefacto com dados de teste
+Quando desenhamos com recurso a ferramentas vectoriais, temos muitas vezes opções limitadas no que respeita a trabalhar com dados reais - formatos inesperados, simulação de estados de componentes, dificuldade em demonstrar micro-interacções com pesquisas, filtros, ordenação, etc. Neste módulo explora-se como pensar na arquitectura de dados, colaborar com equipas de engenharia e criar dados de teste que façam o nosso protótipo funcionar de forma realista.
+
+Acompanhamento de projectos e questões dos alunos.
+
+## A.5 O protótipo como artefacto para validação
+Ao trabalhar num produto digital, é comum identificarmos potenciais riscos ou aspectos da jornada e interacções de utilizador sobre os quais procuramos desenvolver mais confiança. Para isso, geralmente recorremos a testes de usabilidade com recurso a protótipos. Neste módulo, exploramos como identificar os pontos a validar e ajustar o protótipo para ser utilizado como artefacto de validação.
+
+Acompanhamento de projectos e questões dos alunos.
+
+## A.6 O protótipo como artefacto de refinamento
+Quando já temos um protótipo funcional, podemos utilizar a inteligência artificial para refinar detalhes, melhorar a usabilidade e adaptar o design às necessidades dos utilizadores e ao que aprendemos durante a fase de validação. Neste módulo, exploramos como protipar pequenas micro-interacções de forma a comunicar melhor o que pretendemos à nossa equipa de desenvolvimento.
+
+Acompanhamento de projectos e questões dos alunos.
+
+## A.7 Conclusão do curso
+Conclui-se o curso, com conclusões e partilha por parte dos alunos. A formadora aborda questões ou temas pré-submetidos pelos alunos. Esta aula pode servir de complemento e/ou acompanhamento aos projectos individuais.
+
+## Módulos on demand
+Três módulos práticos são disponibilizados em formato vídeo pré-gravado após a introdução do curso. Estes equipam os alunos com domínio técnico adicional para executarem os seus protótipos com sucesso:
+
+## B.1. Prompting, contexto e integrações
 Introdução a técnicas avançadas de prompting. Introdução ao conceito de contexto com MCP (Model Context Protocol) e demostração de integração de bibliotecas através do Figma Make.
 
 Os alunos são convidados de definição de contexto e configuração de MCP e bibliotecas para prototipagem mais precisa. Início da execução dos protótipos definidos no módulo anterior.
 
-## 4. Dados de teste e integração com o Supabase
-Como criar um protótipo que utilize dados realistas e relevantes para o projecto? Como criar interacções complexas como filtros ou pesquisas? Introduz-se o conceito de base de dados apresenta-se o Supabase como uma solução low-code com integração directa ao Figma Make. Guia para dados de teste generativamente.
+## B.2. Dados de teste e integração com o Supabase
+Como criar um protótipo que utilize dados realistas e relevantes para o projecto? Como criar interacções complexas como filtros ou pesquisas? Introduz-se o conceito de base de dados apresenta-se o Supabase como uma solução low-code com integração directa ao Figma Make. 
 
-Demonstração de como criar uma tabela simples que possa ser utilizada num dos protótipos definidos no inicialmente. Acompanhamento dos alunos.
+Demonstração de como definir uma estrutura de dados a partir das explorações de design e criar uma base de dados no Supabase Acompanhamento dos alunos.
 
-## 5. Introdução a versionamento com GitHub
+## B.3. Introdução a versionamento com GitHub
 Como garantir um histórico sobre as alterações que são feitas? Como recuperar uma versão anterior do meu protótipo? Introdução ao conceito de versionamento e ao git. Demonstração prática de operações comuns para manter controlo sobre o progresso do projecto e colaborar com colegas.
 
 Demonstração prática da criação de um repositório e a adição de arquivos através da integração do Figma Make.
-
-## 6. Acompanhamento de projecto
-Acompanhamento de projecto síncrono, cobrindo perguntas frequentes ou temas de interesse dos alunos.
 
 # Riscos e potenciais soluções
 
 | Riscos | Estratégia de mitigação |
 |-----------|---------------------|
-| **Dificuldades no processo de configuração** | Incluir um guia de preparação passo-a-passo em formato video e textual |
-| **Custos com ferramentas** | Tirar partido de periodos de teste e software e APIs de acesso aberto |
-| **Frustração com erros técnicos** | Normalizar erros e iterações como parte do processo, especialmente quando se trata de ferramentas IA, e manter cenários de erro e resolução nas demonstrações gravadas |
+| **Dificuldades no processo de configuração** | Tópicos mais técnicos são disponibilizados com guias-video passo-a-passo. Os alunos podem clarificar questões assíncronamente ou na segunda metade de cada aula |
+| **Custos com ferramentas** | Tira-se partido de licenças de educação do Figma Make e periodos de teste de ferramentas como o Supabase |
+| **Frustração com erros técnicos** | Normalizam-se erros e iterações como parte do processo, especialmente quando se trata de ferramentas IA, e mantêm-se cenários de erro e resolução nas demonstrações gravadas |
+| **Desinteresse na componente prática** | Os alunos podem não ter tempo ou interesse no desenvolvimento da componente prática, tornando os momentos de acompanhamento menos relevantes |
 
 
 <!-- # Referências
